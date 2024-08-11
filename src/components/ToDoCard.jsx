@@ -1,7 +1,8 @@
 import React from 'react'
+import sukuna from "../assets/sukuna.jpg"
 
 export default function ToDoCard(props) {
-    const { children, handleDeleteTodos, index, handleEditTodos} = props
+    const { children, handleDeleteTodos, index, handleEditTodos } = props
     return (
         <li className='toDoItem' >
             {children}
@@ -16,6 +17,10 @@ export default function ToDoCard(props) {
                 }}>
                     <i class="fa-solid fa-trash-can"></i>
                 </button>
+                <div>
+                    <img src={sukuna} alt='sukuna' className='sukuna-img'></img>
+                </div>
             </div>
+
         </li>)
 }

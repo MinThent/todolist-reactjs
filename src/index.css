@@ -102,7 +102,11 @@ p {
   opacity: 0.7;
 }
 
-
+.sukuna-img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
 
 @media (min-width: 640px) {
 
